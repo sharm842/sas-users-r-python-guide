@@ -18,7 +18,7 @@ CHAPTER - PYTHON DOWNLOADS
 
 # Beginner Guide: Getting Started with Jupyter Notebook (Python)
 
-Jupyter Notebook is a free, easy-to-use tool to write and run Python code in your browser. It's perfect for beginners, especially for data science and learning programming.
+Jupyter Notebook is a free, easy-to-use tool to write and run Python code in your browser. It's perfect for beginners, especially for someone new to data science and learning programming.
 
 ---
 
@@ -30,7 +30,7 @@ Jupyter Notebook is a free, easy-to-use tool to write and run Python code in you
 
 ## 2. How to Start Using Jupyter Notebook
 
-This is what I use, you are free to google what other options are availabe. You can use google colab, VScode
+This is what I use, you are free to google what other options are availabe. You can use google colab, VScode etc
 
 ### : Install Anaconda (Recommended for Local Use)
 1. Download [Anaconda Individual Edition](https://www.anaconda.com/products/distribution) and install it.
@@ -55,6 +55,7 @@ a = 3
 b = 4
 c = a + b
 c
+print (c)
 ```
 - The value `7` will be shown below the cell.
 
@@ -62,6 +63,11 @@ c
 - Type the variable name alone at the end of the cell (`c`), or
 - Use `print(c)`.
 
+Think of a variible as a container, that contains different values.
+The value can be a string like a non-numeric or numeric value but the important thing is that it shoulkd have a qouataion mark around it. like "2", "name", "25.6", "age" etc.
+The value can be an integer, ;ikw a whole number -2, 2, 5, 15 etc
+The value can be a float (just a fancy word for numbers that are written in decimals like 22.56, 559.23 etc.
+I hope that helps!
 ---
 
 ## 5. Adding Text and Notes
