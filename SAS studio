@@ -1,0 +1,96 @@
+Beginner Guide: Getting Started with SAS Studio
+SAS Studio is a free, browser-based tool for running SAS code. It’s popular among epidemiologists and public health researchers for data analysis and statistics.
+
+1. What is SAS Studio?
+An online tool to write and run SAS code: You can access it from any web browser.
+
+No installation needed: Great for beginners and students.
+
+2. How to Start Using SAS Studio
+Go to SAS OnDemand for Academics.
+
+Click “Sign in” (create a free account if you don’t have one).
+
+After logging in, click “Start SAS Studio”.
+
+3. Understanding the Interface
+Code Window (Editor): Type your SAS code here.
+
+Log: Shows messages, errors, and whether your code worked.
+
+Results: Shows tables, charts, and outputs.
+
+Navigation Pane: See your files and datasets.
+
+4. Writing and Running SAS Code
+Type this in the Code Window and click the “Run” button (the little running man icon):
+
+/* Assign values to variables */
+data mydata;
+  a = 3;
+  b = 4;
+  c = a + b;         /* Adds a and b, stores result in c */
+run;
+
+/* Print the result */
+proc print data=mydata;
+run;
+What does this code do?
+
+The data mydata; ... run; part creates a small dataset called mydata.
+
+Inside, you assign values to variables a and b, and create a new variable c which is the sum of a and b.
+
+The proc print step shows you a table with the results.
+
+Example:
+You can use this same method to do calculations with other variables.
+For example, if you have blood pressure measured at two visits, you can calculate the average:
+
+sas
+Copy
+Edit
+data bp;
+  visit1 = 120;
+  visit2 = 130;
+  avg_bp = (visit1 + visit2) / 2;
+run;
+
+proc print data=bp;
+run;
+This will show you the average blood pressure.
+
+5. What is a Variable?
+In SAS, a variable is like a column in a data table.
+Each variable can be:
+
+Character (text): Use quotes, like "Shweta" or "2"
+
+Numeric: Numbers, no quotes, like 5, -2, or 22.56
+
+6. Adding Comments
+Use /* comment here */ or a single asterisk * comment; to add notes.
+
+sas
+Copy
+Edit
+/* This is a comment */
+* This is also a comment;
+7. Saving and Sharing
+Click “Save As” to save your code as a .sas file.
+
+Download your results or share them with others.
+
+8. Common Beginner Tips
+Always end each SAS statement with a semicolon ;
+
+If you get an error, check for missing semicolons or typos.
+
+The Log will tell you if your code ran successfully.
+
+9. More Resources
+SAS Studio for Beginners (YouTube)
+
+SAS Studio User Guide
+
+SAS OnDemand for Academics
