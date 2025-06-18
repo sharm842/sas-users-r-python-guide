@@ -63,10 +63,23 @@ print (c)
 - Type the variable name alone at the end of the cell (`c`), or
 - Use `print(c)`.
 
-Think of a variible as a container, that contains different values.
-The value can be a string like a non-numeric or numeric value but the important thing is that it shoulkd have a qouataion mark around it. like "2", "name", "25.6", "age" etc.
-The value can be an integer, ;ikw a whole number -2, 2, 5, 15 etc
-The value can be a float (just a fancy word for numbers that are written in decimals like 22.56, 559.23 etc.
+What is a Variable?
+Think of a variable as a container that can hold different values.
+
+A value can be:
+
+A string: This means text or anything that isn’t a number. It always goes inside quotation marks, like "2", "name", "25.6", or "age".
+
+An integer: This is a whole number, like -2, 2, 5, or 15.
+
+A float: This is just a fancy word for a number with decimals, like 22.56 or 559.23.
+
+So, a variable can store all sorts of things—just remember:
+
+Strings: use quotation marks (" ").
+
+Numbers: no quotation marks for integers and floats.
+
 I hope that helps!
 ---
 
