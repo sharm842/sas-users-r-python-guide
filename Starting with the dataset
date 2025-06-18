@@ -1,1 +1,26 @@
+Looking at Your Data: First Steps
 
+
+We all use SAS, R, or Python mainly to analyze or manipulate datasets, not so much for data management or building databases from scratch.
+
+Whenever you get a dataset, the best practice is to “look at” your data before starting any analysis. What does that mean?
+
+Check the variables of interest: What columns (variables) are included in your dataset?
+
+Check the distribution: What kind of values are there—numbers, text, missing data, weird values, etc.?
+
+Understand the structure:
+
+How many observations (rows) are there?
+
+How many variables (columns) are there?
+
+Are the columns and rows in the right order?
+
+Sometimes your data might not be organized the way you expect (columns as variables  etc.). That’s called “transposing,” and we’ll cover how to handle that later.
+
+In summary:
+
+Always start by exploring your data—look at the size, structure, and what’s inside your variables before you jump into analysis.
+
+So now we will learn how to explore the dataset for the type of value it is, mising data, mean and SD and number of obs and var.
