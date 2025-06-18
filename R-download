@@ -1,1 +1,112 @@
+Beginner Guide: Getting Started with R and RStudio
+RStudio is a free, user-friendly tool to write and run R code. It’s great for beginners, especially for data science, statistics, or learning R for the first time.
 
+1. What is RStudio?
+An interactive coding tool: You can write code, add notes, and see results instantly.
+
+Desktop app (or in your browser): It organizes your code, results, files, and plots in one place.
+
+2. How to Start Using RStudio
+This is what I use—you can also explore other options (like Posit Cloud, Jupyter with R, etc.).
+
+Install R and RStudio (Recommended for Local Use):
+Download and install R from CRAN.
+
+Download and install RStudio Desktop from posit.co.
+
+Open RStudio.
+
+3. Understanding the Interface
+Script Editor (top left): Write and save your code scripts here.
+
+Console (bottom left): Type code and see results immediately.
+
+Environment/History (top right): See your variables and what you’ve done so far.
+
+Files/Plots/Packages/Help (bottom right): Access files, see plots, manage packages, or get help.
+
+4. Writing and Running R Code
+Type this in the Console or in a new script:
+
+r
+Copy
+Edit
+a <- 3
+b <- 4
+c <- a + b
+c
+print(c)
+You will see the value 7 appear in the Console.
+
+Tip:
+
+When you type c alone, R shows the value of c.
+
+print(c) also shows it.
+
+5. What is a Variable?
+Think of a variable as a container that can hold different values.
+
+A value can be:
+
+A string: Text, written inside quotation marks, like "2", "name", "25.6", or "age".
+
+An integer: Whole numbers like -2, 2, 5, or 15.
+
+A float (numeric): Numbers with decimals, like 22.56 or 559.23.
+
+Just remember:
+
+Strings: Use quotation marks (" ").
+
+Numbers: Don’t use quotation marks for numbers.
+
+6. Adding Notes and Comments
+Use # at the start of a line to write comments (notes for yourself or others).
+
+r
+Copy
+Edit
+# This is a comment in R
+7. Saving and Sharing
+Click “File” → “Save” to save your script as a .R file.
+
+You can also copy-paste your code and share it, or export your results.
+
+8. Common Beginner Tips
+Run code line by line with Ctrl + Enter (Windows) or Cmd + Enter (Mac).
+
+Save your work often.
+
+If you see an error, check for typos or missing quotation marks.
+
+Use the “Help” tab or ?functionname (e.g., ?mean) for documentation.
+
+9. More Resources
+RStudio Beginner Tutorial (YouTube)
+
+R for Data Science (free book)
+
+Official RStudio Documentation
+
+ADDITIONAL:
+Assigning Values to Variables: R vs Python
+In Python, you use the = sign to assign a value to a variable.
+
+python
+Copy
+Edit
+a = 5
+name = "Shweta"
+In R, you can use either the = sign or the <- symbol to assign a value.
+However, most R users prefer <- because it’s the traditional R way.
+
+r
+Copy
+Edit
+a <- 5       # Recommended in R
+name <- "Shweta"
+# OR, you can also do:
+a = 5        # Also works in R
+name = "Shweta"
+Tip: Both <- and = do the same thing in most situations in R, but <- is more common in R code and tutorials.
